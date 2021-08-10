@@ -64,7 +64,10 @@ header .caption .text p:last-of-type {
 header .caption .text p span {
   font-size: 36px;
 }
-
+.w-fitContent
+{
+  width: fit-content;
+}
 header .caption .social-icons i {
   width: 55px;
   height: 55px;
