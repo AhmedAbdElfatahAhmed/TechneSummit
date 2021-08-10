@@ -1,0 +1,182 @@
+/* Start varibles */
+:root {
+  --main-color: #f15a22;
+  --secondery-color: #2775d1;
+}
+/* End varibles */
+
+/* Start header */
+
+header {
+  background-image: url("../images/slider.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+/* Start Customize_bootstrap */
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: var(--secondery-color);
+}
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  align-items: flex-start;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--main-color);
+}
+.dropdown-menu[data-bs-popper] {
+  left: -100px;
+}
+/* End Customize_bootstrap */
+
+.nav-item .nav-link.border {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+header .caption .text {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .caption .text h3 {
+  color: var(--main-color);
+}
+
+header .caption .text p:first-of-type {
+  font-size: 18px;
+}
+header .caption .text p:last-of-type {
+  font-size: 30px;
+}
+header .caption .text p span {
+  font-size: 36px;
+}
+
+header .caption .social-icons i {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s background-color;
+  -webkit-transition: 0.5s background-color;
+  -moz-transition: 0.5s background-color;
+  -ms-transition: 0.5s background-color;
+  -o-transition: 0.5s background-color;
+}
+header .caption .social-icons i:nth-of-type(1):hover {
+  background-color: #4267b2;
+}
+header .caption .social-icons i:nth-of-type(2):hover {
+  background-color: #1da1f2;
+}
+header .caption .social-icons i:nth-of-type(3):hover {
+  background-color: #8a3ab9;
+}
+header .caption .social-icons i:nth-of-type(4):hover {
+  background-color: #ff0000;
+}
+header .caption .social-icons i:nth-of-type(5):hover {
+  background-color: #0077b5;
+}
+/* End header */
+
+/* Start prices section */
+.prices h2 {
+  color: var(--main-color);
+}
+.prices p .par {
+  background-color: var(--main-color);
+  font-size: 20px;
+}
+.prices p .par span {
+  font-size: 25px;
+}
+
+.prices .learn-more {
+  font-size: 25px;
+  background-color: var(--secondery-color);
+}
+.prices .learn-more p {
+  background-color: var(--secondery-color);
+}
+.prices .learn-more .btn {
+  background-color: var(--main-color);
+}
+.prices .row > * {
+  padding: 0;
+}
+
+.prices .row .theCard .card-body {
+  border: 1px solid #ccc;
+  min-height: 700px;
+  max-height: 700px;
+  position: relative;
+}
+.prices .card-body button {
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  width: 80%;
+}
+.prices .card-body .sale-fullPrice {
+  font-size: 18px;
+}
+
+.prices .card-body .saveBtn {
+  background-color: var(--main-color);
+  border-radius: 15px 0 0 15px;
+  -webkit-border-radius: 15px 0 0 15px;
+  -moz-border-radius: 15px 0 0 15px;
+  -ms-border-radius: 15px 0 0 15px;
+  -o-border-radius: 15px 0 0 15px;
+}
+.prices .card-body .saleBtn {
+  background-color: #f7a07f;
+  border-radius: 0 15px 15px 0;
+}
+.prices .row .theCard .card-title {
+  background-color: var(--secondery-color);
+  top: 10px;
+}
+.prices .row .theCard .card-title h4 {
+  background-color: #4188db;
+}
+
+.prices .theCard .card-body li.list-group {
+  position: relative;
+}
+.prices .theCard .card-body li.list-group::before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  left: -25px;
+  color: #4188db;
+}
+
+.prices .fire-image {
+  width: 15px;
+}
+.prices .theCard .card-body .btn {
+  background: linear-gradient(90deg, var(--main-color), rgb(238, 9, 121));
+  font-size: 18px;
+}
+/* End prices section */
